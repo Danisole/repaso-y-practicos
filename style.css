@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* podemos poner el mismo estoilo  */
+
+h1, p {
+    font-family: 'Courier New', Courier, monospace;
+
+        color: mediumaquamarine;
+    }
+    
+
+    
+    
+/*  font weigt no es lo mismo que tamaño */
+h1 {
+    font-size: 3em;
+
+}
+
+/* cuando tienen el mismo peso y propiedad elije el ultimo valor */
+p { 
+    color: mediumblue;
+    font-weight: 900;
+}
+.pixel {
+    font-size: 48px;
+}
